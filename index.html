@@ -23,6 +23,33 @@
         .font-manrope {
             font-family: "Manrope", sans-serif;
         }
+
+        .bg-img1 {
+            background: url(./Images/2.png);
+        }
+
+        .button {
+            border-radius: 8px;
+            padding: 10px 22px;
+            border: 1px solid #FF4240;
+            background: #FF4240;
+            font-size: 20px;
+            font-weight: 700;
+            color: #FFF;
+            text-align: center;
+        }
+
+        .bg-img1 {
+            background-image: url(./Images/2.png);
+        }
+
+        .bg-img2 {
+            background-image: url(./Images/3.png);
+        }
+
+        .bg-img3 {
+            background-image: url(./Images/4.png);
+        }
     </style>
     <!-- tailwind custom classes -->
     <script>
@@ -124,15 +151,15 @@
             </div>
         </section>
         <!-- section professional hockey club -->
-        <section class="mt-5 mx-auto">
-            <hr class="dash">
+        <section class="mt-5 mb-6">
+            <hr class="border-dashed">
             <div class="content text-center mt-8">
                 <h1 class="text-xl font-extrabold mb-4 lg:text-4xl">Professional Hockeys Club</h1>
                 <p class="text-gray-400 font-medium text-[12px] lg:text-sm">Dit amet consectetur. Condimentum dignissim
                     adipiscing
                     aliquam turpis placerat <br> dolor. Purus urna in
                     sit nullam proin. </p>
-                <hr class="dash mt-8">
+                <hr class="border-dashed mt-8">
             </div>
             <div class=" mt-8 grid lg:grid-cols-4 grid-cols-1 text-center gap-3">
                 <div class="card-1">
@@ -158,6 +185,46 @@
                     <h3 class="font-semibold mt-1">Training Ground</h3>
                     <p class="text-gray-400 mt-1 font-medium text-[12px] lg:text-sm">Amet consectetur. Condimentum <br>
                         dignissim adipiscing.</p>
+                </div>
+            </div>
+        </section>
+        <!-- program section  -->
+        <section class="mt-12">
+            <hr class="border-dashed">
+            <div>
+                <div class="text-center">
+                    <h1 class="text-2xl font-extrabold lg:text-4xl py-8">Program Sections</h1>
+                    <p class="w-3/4 mx-auto text-lg text-gray-400 mb-8">
+                        The Professional Hockey Club, a powerhouse of icy prowess, boasts skilled skaters, strategic
+                        brilliance, and passionate teamwork, captivating fans with thrilling on-ice spectacles.
+                    </p>
+                </div>
+                <hr class="border-dashed mb-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    <div
+                        class="p-6 lg:px-10 lg:pb-10 lg:pt-24 bg-img1 bg-no-repeat bg-cover bg-center rounded-2xl text-white">
+                        <h3 class="text-xl lg:text-[28px] font-extrabold mb-3 lg:mb-6">Junior Program</h3>
+                        <p class="text-sm lg:text-base font-medium lg:w-11/12 mb-5 lg:mb-6">The Junior Program molds
+                            aspiring talents with expert coaching, fostering discipline, skill, and laying the
+                            foundation for future hockey excellence.</p>
+                        <button class="button">Register Now!</button>
+                    </div>
+                    <div
+                        class="p-6 lg:px-10 lg:pb-10 lg:pt-24 bg-img2 bg-no-repeat bg-cover bg-center rounded-2xl text-white">
+                        <h3 class="text-xl lg:text-[28px] font-extrabold mb-3 lg:mb-6">Teenager Program</h3>
+                        <p class="text-sm lg:text-base font-medium lg:w-11/12 mb-5 lg:mb-6">The Teenager Program hones
+                            skills, builds character, and fosters teamwork, empowering young athletes to excel on and
+                            off the field.</p>
+                        <button class="button">Register Now!</button>
+                    </div>
+                    <div
+                        class="lg:col-span-2 p-6 lg:px-10 lg:pb-10 lg:pt-52 bg-img3  bg-cover bg-center rounded-2xl text-white">
+                        <h3 class="text-xl lg:text-[28px] font-extrabold mb-3 lg:mb-6">Professional Program</h3>
+                        <p class="text-sm lg:text-base font-medium lg:w-1/2 mb-5 lg:mb-6">
+                            The Professional Program elevates elite athletes, refining their prowess, strategic acumen,
+                            and resilience for triumphs in high-stakes competitions on the global stage.</p>
+                        <button class="button">Register Now!</button>
+                    </div>
                 </div>
             </div>
         </section>
